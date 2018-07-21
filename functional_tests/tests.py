@@ -5,7 +5,7 @@ from selenium.common.exceptions import WebDriverException
 import time
 from django.test import LiveServerTestCase
 
-MAX_WAIT = 10
+MAX_WAIT = 3
 
 class NewVisitorTest(LiveServerTestCase):
 
