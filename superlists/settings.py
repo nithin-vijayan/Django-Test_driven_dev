@@ -100,6 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+TEST_RUNNER = "redgreenunittest.django.runner.RedGreenDiscoverRunner"
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
